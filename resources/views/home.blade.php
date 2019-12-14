@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>32</strong> followers</div>
                 <div class="pr-5"><strong>1</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">freeCodeCamp.org</div>
-            <div class="">We are a community of millions of people coding lorem ipsum dolor sit amet.</div>
-            <div><a href="#">www.freecodecamp.org</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+            <div class="">{{ $user->profile->description }}</div>
+            <div><a href="">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row">
