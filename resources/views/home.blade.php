@@ -7,7 +7,7 @@
             <img src="https://instagram.fbts2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/13129274_1719811661623643_1500093578_a.jpg?_nc_ht=instagram.fbts2-1.fna.fbcdn.net&oh=f97f479f521c0cb92a803eb45a379d54&oe=5EB03E1B" class="rounded-circle">
         </div>
         <div class="col-9">
-            <div class=""><h1>{{ Auth::user()->username }}</h1></div>
+            <div class=""><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>6</strong> posts</div>
                 <div class="pr-5"><strong>32</strong> followers</div>
